@@ -1,0 +1,8 @@
+{
+  "cli_status": "HOLD",
+  "fixture_hash": "d4310855530cd422c42895077ab601de4bf25700b7aa1981c53f07abd615d281",
+  "rights": "PENDING",
+  "source_sha256": "239b7fc00c8f9aa72d024535897fe7bf3a96a5662e7b2c8d5ed08045f40c028d",
+  "target_code": "G79",
+  "unit_tests": "PASS"
+}
