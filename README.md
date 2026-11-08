@@ -43,3 +43,9 @@ This engineering revision does not recover the original upstream implementation 
 18 bounded contract tests, wheel build, clean offline co-install and CLI checks. Not the complete original research product.
 
 Runtime state: `PASS`. Rights and release approval are separate. See `RELEASE_VERIFICATION.json`. No paper or conference submission is included as a new software result.
+
+## Hugging Face card publishing correction (no paid compute)
+
+The standalone [public model-card repair utility](tools/repair_public_hf_model_cards.py) targets **only three** stale, already-public Humanization Tech model cards (`mri-feature-distance-cp08`, `ncl-fitted-research-cp08`, `rhythm-source-predictor-cp08`). It changes only the status and publication-route wording: it does not touch weights, repository visibility, licences, model evaluation or clinical claims.
+
+On an authenticated local computer with the free `huggingface_hub` package, run it *without arguments* to review the unified diffs. The explicit `--apply` mode requires typing `APPLY-THREE` and verifies each README after commit. Never share access tokens in chat. This utility is **published as source code**, not executed against those Hugging Face repositories by this GitHub commit.
